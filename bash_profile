@@ -5,6 +5,12 @@
 [[ -f ~/.bashrc ]] && . ~/.bashrc
 
 #
+# Include aliases file
+#
+
+source aliases
+
+#
 # X autostart
 #
 

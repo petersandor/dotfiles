@@ -1,0 +1,13 @@
+# Quicker navigation
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias .....="cd ../../../.."
+alias ~="cd ~"
+
+# VPN
+alias airvpn="sudo openvpn --config /etc/openvpn/AirVPN_Europe_TCP-443.ovpn --writepid /var/run/openvpn.pid"
+
+# Pacman shortcuts
+alias pu="sudo pacman -Syu"
+alias pi="sudo pacman -S"
