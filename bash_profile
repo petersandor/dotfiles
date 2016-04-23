@@ -8,7 +8,7 @@
 # Include aliases file
 #
 
-source aliases
+[[ -f ~/.aliases ]] && source ~/.aliases
 
 #
 # X autostart
