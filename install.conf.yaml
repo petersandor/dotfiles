@@ -5,6 +5,7 @@
     ~/.config/i3: config/i3
     ~/.mplayer: mplayer
     ~/.aliases: aliases
+    ~/.functions: functions
     ~/.bash_profile: bash_profile
     ~/.bash_logout: bash_logout
     ~/.bashrc: bashrc
