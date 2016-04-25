@@ -2,10 +2,12 @@
 function mk() {
   mkdir -p "$@" && cd "$@"
 }
+
 # Open man page as PDF
 function manpdf() {
- man -t "${1}" | open -f -a /Applications/Preview.app/
+  man -t "${1}" | open -f -a /Applications/Preview.app/
 }
+
 # Extra many types of compressed packages
 # Credit: http://nparikh.org/notes/zshrc.txt
 extract() {
@@ -29,4 +31,18 @@ extract() {
   else
      echo "'$1' is not a valid file to extract"
   fi
+}
+
+# Determine size of a file or total size of a directory
+function fs() {
+  if du -b /dev/null > /dev/null 2>&1; then
+    local arg=-sbh;
+  else
+    local arg=-sh;
+  fi
+  if [[ -n "$@" ]]; then
+    du $arg -- "$@";
+  else
+    du $arg .[^.]* ./*;
+  fi;
 }
