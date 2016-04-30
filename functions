@@ -46,3 +46,12 @@ function fs() {
     du $arg .[^.]* ./*;
   fi;
 }
+
+# Create a backup file
+function bak() {
+ if [ -f "$1" ]; then
+     cp "$1" "$1".bak
+  else
+     echo "'$1' is not a valid file"
+  fi
+}
