@@ -7,6 +7,9 @@
     ~/.config/i3: config/i3
     ~/.config/i3status: config/i3status
     ~/.config/htop: config/htop
+    ~/.config/gtk-2.0: config/gtk-2.0
+    ~/.config/gtk-3.0: config/gtk-3.0
+    ~/.gtkrc-2.0: config/gtk-2.0/gtkrc-2.0
     ~/.mplayer: mplayer
     ~/.aliases: aliases
     ~/.functions: functions
