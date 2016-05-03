@@ -1,6 +1,6 @@
 ! urxvt
 
-URxvt*font:            xft:monospace:pixelsize=16
+URxvt*font:                xft:monospace:pixelsize=16
 URxvt.letterSpace:         -1
 
 *background: #232C31
@@ -30,6 +30,10 @@ URxvt.letterSpace:         -1
 *color7: #6C7A80
 *color15: #C5C8C6
 
+! transparency
+URxvt*transparent:         true
+URxvt*shading:             15
+
 URxvt.internalBorder:      0
 URxvt.externalBorder:      0
 
@@ -37,9 +41,7 @@ URxvt.scrollBar:           false
 
 URxvt*fading:              30
 
-URxvt.perl-ext-common:     fullscreen,matcher,resize-font,foo
-
-URxvt.keysym.F11:          perl:fullscreen:switch
+URxvt.perl-ext-common:     matcher,resize-font
 
 URxvt.resize-font.smaller: C-Down
 URxvt.resize-font.bigger:  C-Up
