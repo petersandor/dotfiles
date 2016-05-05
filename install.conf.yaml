@@ -3,6 +3,8 @@
     - [mkdir -p ~/.local/share/npm, Creating npm folder]
     - [test ! -e ~/.npmrc && echo prefix=/home/$(whoami)/.local/share/npm > npmrc, Creating npmrc with packages dir prefix]
 
+- clean: ['~']
+
 - link:
     ~/.config/i3: config/i3
     ~/.config/i3status: config/i3status
