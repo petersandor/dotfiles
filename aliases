@@ -38,6 +38,7 @@ alias airvpn="sudo openvpn --config /etc/openvpn/AirVPN_Europe_TCP-443.ovpn --wr
 # Pacman shortcuts
 alias pu="sudo pacman -Syu"
 alias pi="sudo pacman -S"
+alias pr="sudo pacman -Rs"
 
 # ls
 alias ls='ls --color=auto'
