@@ -116,7 +116,7 @@ bindsym $mod+a focus parent
 set $workspace1 "1: "
 set $workspace2 "2: "
 set $workspace3 "3: "
-set $workspace4 "4: media"
+set $workspace4 "4: "
 
 # switch to workspace
 bindsym $mod+1 workspace $workspace1
@@ -144,6 +144,7 @@ bindsym $mod+Shift+0 move container to workspace 10
 
 # program workspaces
 assign [class="chromium"] $workspace2
+assign [class="code"]     $workspace3
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
@@ -205,6 +206,10 @@ for_window [class="Steam"] floating enable
 for_window [class="Steam" title="^Steam$"] floating disable
 for_window [window_role="pop-up"] floating enable
 
+# disable borders and title bar
+for_window [class="chromium"] border pixel 0
+for_window [class="Firefox"]  border pixel 0
+
 # Volume control
 bindsym $mod+period exec amixer set Master 5%+
 bindsym $mod+comma  exec amixer set Master 5%-
@@ -235,7 +240,7 @@ client.urgent           $base02 $base08 $base00 $base0F
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
 bar {
-  font pango: Terminus, FontAwesome 8
+  font pango: Terminus 9
   status_command ~/.config/conky/conky-i3bar.sh
   position bottom
   tray_output primary
