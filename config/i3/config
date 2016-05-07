@@ -223,20 +223,20 @@ bindsym                Control+Shift+Print exec --no-startup-id sleep 5 && scrot
 bindsym --release $mod+Control+Print       exec --no-startup-id sleep 5 && scrot -s "$HOME/Pictures/Screenshot %Y-%m-%d %H-%M-%S %z.png" #&& notify-send "png screenshot of window in 5s"
 bindsym --release $mod+Control+Shift+Print exec --no-startup-id sleep 5 && scrot -s "$HOME/Pictures/Screenshot %Y-%m-%d %H-%M-%S %z.jpg" #&& notify-send "jpg screenshot of window in 5s"
 
+# Hide borders
+hide_edge_borders both
+
 # Widow Colours
 client.focused          $base01 $base01 $base07 $base0F
 client.focused_inactive $base02 $base02 $base03 $base0F
 client.unfocused        $base02 $base02 $base03 $base0F
 client.urgent           $base02 $base08 $base00 $base0F
 
-# Hide borders
-hide_edge_borders both
-
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
 bar {
-#  font pango: System San Francisco Display, FontAwesome 11
-  status_command i3status
+  font pango: Terminus, FontAwesome 8
+  status_command ~/.config/conky/conky-i3bar.sh
   position bottom
   tray_output primary
   colors {
