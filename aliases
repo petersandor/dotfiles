@@ -41,6 +41,7 @@ alias pu="sudo pacman -Syu"
 alias pi="sudo pacman -S"
 alias prs="sudo pacman -Rs"
 alias psc="sudo pacman -Sc"
+alias pqs="pacman -Qs"
 
 # ls
 alias ls='ls --color=auto'
