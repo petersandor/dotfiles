@@ -9,6 +9,7 @@
     ~/.config/conky: config/conky
     ~/.config/i3: config/i3
     ~/.config/i3status: config/i3status
+    ~/.config/mc: config/mc
     ~/.config/htop: config/htop
     ~/.config/gtk-2.0: config/gtk-2.0
     ~/.config/gtk-3.0: config/gtk-3.0
