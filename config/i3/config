@@ -143,8 +143,8 @@ bindsym $mod+Shift+9 move container to workspace 9
 bindsym $mod+Shift+0 move container to workspace 10
 
 # program workspaces
-assign [class="chromium"] $workspace2
-assign [class="code"]     $workspace3
+assign [class="chromium"] → $workspace2
+assign [class="Code"]     → $workspace3
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
