@@ -42,6 +42,7 @@ alias pi="sudo pacman -S"	# install
 alias prs="sudo pacman -Rs"	# remove
 alias psc="sudo pacman -Sc"	# cache clean
 alias pqs="pacman -Qs"		# search in installed packages
+alias pqet="pacman -Qet"	# list packages explicitly installed and not required as deps
 
 # ls
 alias ls='ls --color=auto'
