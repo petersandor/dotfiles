@@ -37,11 +37,11 @@ alias nog="npm outdated -g"
 alias airvpn="sudo openvpn --config /etc/openvpn/AirVPN_Europe_TCP-443.ovpn --writepid /var/run/openvpn.pid"
 
 # Pacman shortcuts
-alias pu="sudo pacman -Syu"
-alias pi="sudo pacman -S"
-alias prs="sudo pacman -Rs"
-alias psc="sudo pacman -Sc"
-alias pqs="pacman -Qs"
+alias pu="sudo pacman -Syu"	# full system update
+alias pi="sudo pacman -S"	# install
+alias prs="sudo pacman -Rs"	# remove
+alias psc="sudo pacman -Sc"	# cache clean
+alias pqs="pacman -Qs"		# search in installed packages
 
 # ls
 alias ls='ls --color=auto'
