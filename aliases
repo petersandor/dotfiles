@@ -46,3 +46,7 @@ alias pqet="pacman -Qet"	# list packages explicitly installed and not required a
 
 # ls
 alias ls='ls --color=auto'
+
+# mounting
+alias dm-mount="exec \"devmon --no-gui > /var/log/devmon.log\""
+alias dm-dismount="devmon -c"
