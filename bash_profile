@@ -13,6 +13,13 @@ for file in ~/.aliases ~/.functions ~/.exports; do
 done;
 unset file;
 
+#
+# History
+#
+
+#export HISTCONTROL=ignoredups:erasedups    # avoid duplicates
+shopt -s histappend                        # append history entries
+
 # npm location
 
 NPM_PACKAGES="${HOME}/.local/share/npm"
