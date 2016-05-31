@@ -206,6 +206,7 @@ for_window [class="Steam"] floating enable
 for_window [class="Steam" title="^Steam$"] floating disable
 for_window [window_role="pop-up"] floating enable
 for_window [title="Task Manager - Chromium"] floating enable
+for_window [class="feh"] floating enable
 
 # disable borders and title bar
 for_window [class="chromium"] border pixel 0
