@@ -52,6 +52,10 @@ TEXT
   {"full_text":"  CPU (${freq_g}GHz):","separator":false},\
   {"full_text":"${cpu cpu0}%","color":"\#808080","separator":false},\
 
+  # CPU temp
+  {"full_text":"Temp (°C):","separator":false},\
+  {"full_text":"${hwmon 1 temp 1}","color":"\#808080","separator":false},\
+
   # Finds current volume. May need modified depending on your setup
   {"full_text":" ","separator":false},\
   {"full_text":"${exec amixer get Master | awk '$0~/%/{print $4}' | tr -d '[]'}","color":"\#808080","separator":false},\
