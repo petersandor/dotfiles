@@ -177,7 +177,7 @@ mode "resize" {
         bindsym Escape mode "default"
 }
 
-bindsym $mod+r mode "resize"
+bindsym $win+r mode "resize"
 
 # Shutdown, reboot, lock screen
 set $Locker i3lock -c 000000 && sleep 1
