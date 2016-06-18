@@ -3,3 +3,8 @@ export EDITOR='vim';
 
 # Don’t clear the screen after quitting a manual page.
 export MANPAGER='less -X';
+
+# History settings
+export HISTCONTROL=ignoredups:erasedups    # avoid duplicates
+export HISTFILESIZE=
+export HISTSIZE=
