@@ -41,7 +41,7 @@ URxvt.scrollBar:           false
 
 URxvt*fading:              30
 
-URxvt.perl-ext-common:     matcher,resize-font
+URxvt.perl-ext-common:     matcher,resize-font,searchable-scrollback
 
 URxvt.resize-font.smaller: C-Down
 URxvt.resize-font.bigger:  C-Up
