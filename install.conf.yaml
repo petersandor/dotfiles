@@ -21,6 +21,7 @@
     ~/.bash_profile: bash_profile
     ~/.bash_logout: bash_logout
     ~/.bashrc: bashrc
+    ~/.bash_prompt: bash_prompt
     ~/.xinitrc: xinitrc
     ~/.Xresources: Xresources
     ~/.npmrc: npmrc

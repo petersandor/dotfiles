@@ -8,7 +8,7 @@
 # Load other dotfiles
 #
 
-for file in ~/.aliases ~/.functions ~/.exports; do
+for file in ~/.aliases ~/.functions ~/.exports ~/.bash_prompt; do
 	[ -h "$file" ] && source "$file";
 done;
 unset file;
