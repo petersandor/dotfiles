@@ -35,18 +35,11 @@ fi;
 # Install `wget` with IRI support.
 brew install wget --with-iri
 
-# Install RingoJS and Narwhal.
-# Note that the order in which these are installed is important;
-# see http://git.io/brew-narwhal-ringo.
-brew install ringojs
-brew install narwhal
-
 # Install more recent versions of some macOS tools.
 brew install vim --override-system-vi
 brew install homebrew/dupes/grep
 brew install homebrew/dupes/openssh
 brew install homebrew/dupes/screen
-brew install homebrew/php/php56 --with-gmp
 
 # Install font tools.
 brew tap bramstein/webfonttools
@@ -65,7 +58,6 @@ brew install dns2tcp
 brew install fcrackzip
 brew install foremost
 brew install hashpump
-brew install hydra
 brew install john
 brew install knock
 brew install netpbm
@@ -86,14 +78,11 @@ brew install dark-mode
 #brew install exiv2
 brew install git
 brew install git-lfs
-brew install imagemagick --with-webp
-brew install lua
 brew install lynx
 brew install p7zip
 brew install pigz
 brew install pv
 brew install rename
-brew install rhino
 brew install speedtest_cli
 brew install ssh-copy-id
 brew install testssl
