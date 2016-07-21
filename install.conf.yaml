@@ -18,6 +18,7 @@
     ~/.aliases: aliases
     ~/.functions: functions
     ~/.editorconfig: editorconfig
+    ~/.extra: extra
     ~/.exports: exports
     ~/.gitattributes: gitattributes
     ~/.gitconfig: gitconfig
