@@ -27,7 +27,7 @@ alias nrc="npm run commit"
 alias nog="npm outdated -g"
 
 # VPN
-alias airvpn="sudo openvpn --config /etc/openvpn/AirVPN_Europe_TCP-443.ovpn --writepid /var/run/openvpn.pid"
+alias airvpn="sudo openvpn --config /etc/openvpn/AirVPN_Europe_TCP-443.ovpn"
 
 # Pacman shortcuts
 alias pu="sudo pacman -Syu"	# full system update
