@@ -17,7 +17,11 @@
     ~/.mplayer: config/mplayer
     ~/.aliases: aliases
     ~/.functions: functions
+    ~/.editorconfig: editorconfig
     ~/.exports: exports
+    ~/.gitattributes: gitattributes
+    ~/.gitconfig: gitconfig
+    ~/.gitignore: gitignore
     ~/.bash_profile: bash_profile
     ~/.bash_logout: bash_logout
     ~/.bashrc: bashrc

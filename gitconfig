@@ -133,3 +133,7 @@
 	default = matching
 	# Make `git push` push relevant annotated tags when pushing branches out.
 	followTags = true
+
+[user]
+	name = Peter Sandor
+	email = peter@petersandor.name
