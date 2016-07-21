@@ -244,7 +244,8 @@ client.urgent           $base02 $base08 $base00 $base0F
 bar {
   font pango: Terminus 9
   status_command ~/.config/conky/conky-i3bar.sh
-  position bottom
+  position top
+  output DVI-0
   tray_output primary
   colors {
     separator          #AAAAAA
