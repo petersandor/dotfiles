@@ -13,6 +13,7 @@
     ~/.config/htop: config/htop
     ~/.config/gtk-2.0: config/gtk-2.0
     ~/.config/gtk-3.0: config/gtk-3.0
+    ~/.config/.redshift.conf: config/redshift.conf
     ~/.gtkrc-2.0: config/gtk-2.0/gtkrc-2.0
     ~/.mplayer: config/mplayer
     ~/.aliases: aliases
