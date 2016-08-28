@@ -36,6 +36,7 @@ alias prs="sudo pacman -Rs"	# remove
 alias psc="sudo pacman -Sc"	# cache clean
 alias pqs="pacman -Qs"		# search in installed packages
 alias pqet="pacman -Qet"	# list packages explicitly installed and not required as deps
+alias pqm="pacman -Qm" 		# list foreign packages; which, for must users, means AUR
 
 # ls
 alias ls='ls --color=auto'
