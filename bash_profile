@@ -1,10 +1,4 @@
 #
-# X autostart
-#
-
-[[ -z $DISPLAY && $XDG_VTNR -eq 1 ]] && exec startx
-
-#
 # Load other dotfiles
 #
 
@@ -24,4 +18,3 @@ shopt -s histappend                        # append history entries
 NPM_PACKAGES="${HOME}/.local/share/npm"
 export PATH="$NPM_PACKAGES/bin:$PATH"
 unset NPM_PACKAGES
-
