@@ -37,7 +37,3 @@ alias pqm="pacman -Qm" 		# list foreign packages; which, for must users, means A
 
 # ls
 alias ls='ls --color=auto'
-
-# mounting
-alias dm-mount="devmon --no-gui"
-alias dm-dismount="devmon -c"
